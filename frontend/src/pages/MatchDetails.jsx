@@ -1,7 +1,7 @@
 // src/pages/MatchDetails.jsx
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getMatch, updateMatch } from "../services/matchService";
+import { getMatch, updateMatch } from "../services/MatchService";
 
 export default function MatchDetails() {
   const { id } = useParams();
