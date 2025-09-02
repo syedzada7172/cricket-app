@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { getMatches } from "../services/matchService";
+import { getMatches } from "../services/MatchService";
 
 export default function Home() {
   const [matches, setMatches] = useState([]);
