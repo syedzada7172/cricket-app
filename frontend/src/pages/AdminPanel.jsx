@@ -1,7 +1,7 @@
 // src/pages/AdminPanel.jsx
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getMatch, setBatsmen, updateBowler } from "../services/matchService";
+import { getMatch, setBatsmen, updateBowler } from "../services/MatchService";
 
 export default function AdminPanel() {
   const { id } = useParams();
